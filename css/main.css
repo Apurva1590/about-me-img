@@ -1,0 +1,161 @@
+
+.nav-main {
+    background-color: #000000;
+    font-family: "proxima nova", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+}
+
+.logo:hover {
+    opacity: 0.5;
+  }
+
+body {
+   
+    font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+    background-color: transparent;
+    font-size: 16px;
+    color: #111111;
+}
+
+.row {
+    /* border: 1px solid red; */
+}
+
+.row > div {
+    /* border: 1px solid green; */
+}
+
+.inline {
+    display: inline-flex;
+}
+
+.space-between {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.intro {
+    font-size: 26px;
+    color: #666666;
+    line-height: 1.3em;
+    margin-bottom: 0.7em;
+    clear: both;
+    text-decoration-style: none;
+}
+
+.row-one {
+    padding: 50px 30px;
+    /* border-bottom: #dddddd solid 1px; */
+}
+
+h1 {
+    margin-bottom: 0.1em;
+    font-size: 48px;
+    font-size: 4.8rem;
+    line-height: 1.2em;
+    font-weight: bold;
+}
+
+/* To bounce the h1 tag */
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+h1:hover {
+	animation: bounce 1s;
+}
+
+.text-main {
+    padding-top: 50px;
+}
+
+.img-main {
+    text-align: center;
+}
+
+.img-gallery {
+    border-top: #dddddd solid 1px;
+    padding-top: 30px;
+}
+
+.row-two {
+    background: #fafafa;
+    border-bottom: #dddddd solid 1px;
+    padding: 80px 30px;
+    
+}
+
+.row-two div ul li {
+    line-height: 2em;
+}
+
+.img-pie {
+    /* margin-left: -40px; */
+}
+.part-two {
+   text-indent: 40%;
+}
+
+.row-three {
+    padding: 60px 30px;
+}
+
+.part-three {
+    text-indent: 30%;
+    padding-top: 50px;
+    line-height: 2em;
+ }
+
+ .row-four {
+    background: #fafafa;
+    border-bottom: #dddddd solid 1px;
+    padding: 60px 30px;
+   
+    
+}
+
+.img-center {
+    text-align: center;
+   
+}
+
+ .row-five {
+    padding: 60px 30px;
+}
+
+.part-five {
+    padding-top: 50px;
+}
+
+ .footer-align {
+    padding-top: 25px;
+ }
+
+ .footer-nav {
+     padding-top: 12px;
+ }
+
+ .footer-content {
+    background-color: #fafafa;
+    border-top: #dddddd solid 1px;
+    padding: 0px 30px;
+ }
+@media (min-width: 990px) {
+    /* to move nav bar links to right */
+    .navbar-right {
+      position: absolute;
+      left: 65%;
+      }
+   }
